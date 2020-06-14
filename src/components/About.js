@@ -7,7 +7,8 @@ import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 
 import Bar from "../assets/images/bar.png";
-import AboutImage from "../assets/images/about-me-image.jpg";
+// import AboutImage from "../assets/images/about-me-image.jpg";
+import AboutImage from "../assets/images/about.jpg";
 
 import Resume from "../assets/pdf/Aman_Kumar.pdf";
 

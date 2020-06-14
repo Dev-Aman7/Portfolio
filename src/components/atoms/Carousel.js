@@ -14,7 +14,8 @@ import whiteBar from "../../assets/images/whitebar.png";
 const useStyles = makeStyles((theme) => ({
 	container: {
 		background: theme.backgroundColor,
-		paddingTop: "2rem",
+		paddingTop: "0.5rem",
+		paddingBottom: "1rem",
 	},
 	header: {
 		fontWeight: theme.bolder,

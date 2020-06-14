@@ -69,8 +69,7 @@ export default function Service() {
 						image={backend}
 						dates=""
 						heading="FRONTEND DEVELOPMENT"
-						text="Lizards are a widespread group of squamate reptiles, with over 6,000
-						species, ranging across all continents except Antarctica species,
+						text="Expertise in building responsive designer website with high customizability.
 						"
 					/>
 				</Grid>

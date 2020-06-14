@@ -25,6 +25,7 @@ const useStyles = makestyles((theme) => ({
 	gridItem: {
 		display: "flex",
 		justifyContent: "center",
+		marginBottom: "1rem",
 	},
 	headerBox: {
 		display: "flex",
