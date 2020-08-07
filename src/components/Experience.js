@@ -67,9 +67,7 @@ export default function Experience() {
 						image={ISA}
 						dates="APR 2017- APR 2018"
 						heading="PROJECT HEAD ISA-VIT"
-						text="Lizards are a widespread group of squamate reptiles, with over 6,000
-						species, ranging across all continents except Antarctica species,
-						"
+						text="Lead an extraordinary group of enthusiastics technocrats who have the ability to change world and continuously working on this practice."
 					/>
 				</Grid>
 				<Grid item md={4} xs={12} sm={12} className={classes.gridItem}>
@@ -77,8 +75,7 @@ export default function Experience() {
 						image={CodePark}
 						dates="SEP 2017- JAN 2018"
 						heading="FOUNDER, CodePark"
-						text="Lizards are a widespread group of squamate reptiles, with over 6,000
-					species, ranging across all continents except Antarctica species,
+						text=" A practice to bring all programming lovers at a single platform and leverage the power of community to build, learn and explore.
 					"
 					/>
 				</Grid>
@@ -87,9 +84,7 @@ export default function Experience() {
 						image={Bene}
 						dates="APR 2020- JUN 2020"
 						heading="Full Stack Intern at Bene"
-						text="Lizards are a widespread group of squamate reptiles, with over 6,000
-				species, ranging across all continents except Antarctica species,
-				"
+						text="Full stack developement with the sugar of innovation and creativity to build real-life projects with high performance and low maintainenance"
 					/>
 				</Grid>
 			</Grid>

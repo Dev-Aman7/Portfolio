@@ -69,8 +69,8 @@ export default function Service() {
 						image={backend}
 						dates=""
 						heading="FRONTEND DEVELOPMENT"
-						text="Expertise in building responsive designer website with high customizability.
-						"
+						text="Turning the dreams into website that you love with high customizability and performance.
+"
 					/>
 				</Grid>
 				<Grid item md={4} xs={12} sm={12} className={classes.gridItem}>
@@ -78,9 +78,7 @@ export default function Service() {
 						image={frontend}
 						dates=""
 						heading="BACKEND DEVELOPMENT"
-						text="Lizards are a widespread group of squamate reptiles, with over 6,000
-					species, ranging across all continents except Antarctica species,
-					"
+						text="Building highly scalable backbones that handles all your loving user "
 					/>
 				</Grid>
 				<Grid item md={4} xs={12} sm={12} className={classes.gridItem}>
@@ -88,9 +86,7 @@ export default function Service() {
 						image={support}
 						dates=""
 						heading="SUPPORT"
-						text="Lizards are a widespread group of squamate reptiles, with over 6,000
-				species, ranging across all continents except Antarctica species,
-				"
+						text="Never leave you in the middle of the ocean. Always approachable before and after delivering your dream."
 					/>
 				</Grid>
 			</Grid>
