@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -9,7 +9,7 @@ import makeStyles from "@material-ui/styles/makeStyles";
 
 import CustomCard from "./customCard";
 
-import whiteBar from "../../assets/images/whitebar.png";
+// import whiteBar from "../../assets/images/whitebar.png";
 
 const useStyles = makeStyles((theme) => ({
 	container: {

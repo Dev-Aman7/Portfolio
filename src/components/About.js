@@ -6,7 +6,7 @@ import makestyles from "@material-ui/styles/makeStyles";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 
-import Bar from "../assets/images/bar.png";
+// import Bar from "../assets/images/bar.png";
 // import AboutImage from "../assets/images/about-me-image.jpg";
 import AboutImage from "../assets/images/about.jpg";
 
@@ -92,11 +92,7 @@ export default function About() {
 			</Box>
 			<Grid container>
 				<Grid item md={4} xs={12} sm={12}>
-					<img
-						src={AboutImage}
-						alt="about me image"
-						className={classes.image}
-					/>
+					<img src={AboutImage} alt="about me " className={classes.image} />
 				</Grid>
 				<Grid item md={8} xs={12} sm={12}>
 					<Box pt={9} px={7}>

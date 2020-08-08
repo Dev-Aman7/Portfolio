@@ -6,7 +6,7 @@ import Typography from "@material-ui/core/Typography";
 import makestyles from "@material-ui/styles/makeStyles";
 
 import ExperienceCard from "./atoms/ExperienceCard";
-import Bar from "../assets/images/bar.png";
+// import Bar from "../assets/images/bar.png";
 import frontend from "../assets/images/frontend.png";
 import backend from "../assets/images/backend.png";
 import support from "../assets/images/support.png";

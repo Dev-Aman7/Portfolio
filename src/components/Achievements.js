@@ -20,6 +20,7 @@ const elements = [
 	{ img: Html, text: "" },
 	{ img: CSS, text: "" },
 	{ img: Java, text: "" },
+	{ img: Bootstrap, text: "" },
 ];
 export default function Skill() {
 	return (

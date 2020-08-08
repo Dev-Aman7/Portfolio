@@ -7,7 +7,7 @@ import makestyles from "@material-ui/styles/makeStyles";
 
 import ExperienceCard from "./atoms/ExperienceCard";
 import Bene from "../assets/images/bene.png";
-import Bar from "../assets/images/bar.png";
+// import Bar from "../assets/images/bar.png";
 import ISA from "../assets/images/isa.jpeg";
 import CodePark from "../assets/images/CodePark.jpeg";
 
@@ -84,7 +84,7 @@ export default function Experience() {
 						image={Bene}
 						dates="APR 2020- JUN 2020"
 						heading="Full Stack Intern at Bene"
-						text="Full stack developement with the sugar of innovation and creativity to build real-life projects with high performance and low maintainenance"
+						text="Full stack developement with the sugar of innovation and creativity to build real-life projects with high performance and low maintainenance."
 					/>
 				</Grid>
 			</Grid>

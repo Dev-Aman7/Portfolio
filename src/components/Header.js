@@ -3,7 +3,7 @@ import React from "react";
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import Box from "@material-ui/core/Box";
 
-import firstImage from "../assets/images/header-background.png";
+// import firstImage from "../assets/images/header-background.png";
 import { Typography, Button } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
