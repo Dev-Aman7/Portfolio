@@ -1,26 +1,31 @@
 import React from "react";
 import Carousel from "./atoms/Carousel";
 
-import JS from "../assets/images/Javascript.svg";
-import ReactJs from "../assets/images/React.png";
-import Node from "../assets/images/Nodejs.png";
-import Mongo from "../assets/images/Mongodb.png";
-import CSS from "../assets/images/CSS.svg";
-import Express from "../assets/images/express.svg";
-import Html from "../assets/images/html5.svg";
-import Java from "../assets/images/java.png";
-import Bootstrap from "../assets/images/Bootstrap.png";
+import Achievement from "../assets/images/achievement.png";
+import Iact from "../assets/images/iact.jpeg";
+import KCG from "../assets/images/KCG.jpeg";
+import IISF from "../assets/images/IISF.jpeg";
 
 const elements = [
-	{ img: JS, text: "" },
-	{ img: ReactJs, text: "" },
-	{ img: Node, text: "" },
-	{ img: Mongo, text: "" },
-	{ img: Express, text: "" },
-	{ img: Html, text: "" },
-	{ img: CSS, text: "" },
-	{ img: Java, text: "" },
-	{ img: Bootstrap, text: "" },
+	{
+		img: Iact,
+		text: "1st prize at I'Act 2018 organized by ISA Banglore",
+	},
+	{
+		img: KCG,
+		text: "1st prize at Makeathon V1.0, KCG college, Chennai",
+	},
+	{
+		img: IISF,
+		text:
+			"Selected for INDIA's best innovative project at IISF by MHRD,Govt of India",
+	},
+	{ img: Achievement, text: "2nd prize at Hack4Cause by IEEE-SSIT, VIT" },
+	{ img: Achievement, text: "Special mention at Code2Create ACM, VIT" },
+	{
+		img: Achievement,
+		text: "Presented conference paper at VIT on RFID based navigation system ",
+	},
 ];
 export default function Skill() {
 	return (

@@ -14,6 +14,11 @@ const useStyles = makeStyles((theme) => ({
 		borderRadius: "10px",
 		margin: "1rem",
 	},
+	text: {
+		marginTop: "1rem",
+		color: theme.secondary,
+		bold: theme.bold,
+	},
 }));
 
 export default function Card({ image, text, ...props }) {
@@ -24,7 +29,7 @@ export default function Card({ image, text, ...props }) {
 				<img src={image} alt={text} height="128px" />
 			</div>
 			<div>
-				<Typography>{text}</Typography>
+				<Typography className={classes.text}>{text}</Typography>
 			</div>
 		</Box>
 	);
