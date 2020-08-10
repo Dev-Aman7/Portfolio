@@ -1,11 +1,11 @@
 import React from "react";
 import Carousel from "./atoms/Carousel";
 
-import JS from "../assets/images/Javascript.svg";
+import JS from "../assets/images/Javascript.png";
 import ReactJs from "../assets/images/React.png";
 import Node from "../assets/images/Nodejs.png";
 import Mongo from "../assets/images/Mongodb.png";
-import CSS from "../assets/images/CSS.svg";
+import CSS from "../assets/images/css3.svg";
 import Express from "../assets/images/express.svg";
 import Html from "../assets/images/html5.svg";
 import Java from "../assets/images/java.png";
