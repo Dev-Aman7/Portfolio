@@ -12,8 +12,8 @@ import Java from "../assets/images/java.png";
 import Bootstrap from "../assets/images/Bootstrap.png";
 
 const elements = [
-	{ img: JS, text: "" },
 	{ img: ReactJs, text: "" },
+	{ img: JS, text: "" },
 	{ img: Node, text: "" },
 	{ img: Mongo, text: "" },
 	{ img: Express, text: "" },
