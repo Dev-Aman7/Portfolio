@@ -47,6 +47,9 @@ const useStyles = makestyles((theme) => ({
 		"&:hover": {
 			color: theme.backgroundColor,
 			background: theme.secondary,
+			"& > .link": {
+				color: "red",
+			},
 		},
 	},
 	headerBox: {
@@ -118,16 +121,13 @@ export default function About() {
 									</Typography>
 								</Grid>
 								<Grid item md={5} xs={12} sm={12}>
-									<Button className={classes.btn}>
-										<a
-											href={Resume}
-											download="Aman_Kumar.pdf"
-											className={classes.link}
-										>
-											{" "}
-											DOWNLOAD CV
-										</a>
-									</Button>
+									<a
+										href={Resume}
+										download="Aman_Kumar.pdf"
+										className={classes.link}
+									>
+										<Button className={classes.btn}> DOWNLOAD CV</Button>
+									</a>
 								</Grid>
 								<Grid item md={5} xs={12} sm={12}>
 									<Button
