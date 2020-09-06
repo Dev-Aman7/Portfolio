@@ -105,10 +105,11 @@ export default function About() {
           <Box pt={9} px={7}>
             <Typography className={classes.text}>
               Software developer, with MERN proficiency as a full stack
-              developer. Highly skilled in building production ready and
-              scalable website. Have proven leadership skills, with experience
-              of Start-Up, winning spectrum across several competitions and Ex
-              Board member of a prestigious Technical society in the University.
+              developer. I am a highly motivated and progress-focused Software
+              Developer with a long-standing background in this industry. With a
+              track record of initiative and dependability. I have devised
+              strategic initiatives which I believe will prove valuable to your
+              esteemed organization.
             </Typography>
             <Box mt={5} mb={2}>
               <Grid container>
