@@ -73,7 +73,7 @@ export default function Experience() {
         <Grid item md={4} xs={12} sm={12} className={classes.gridItem}>
           <ExperienceCard
             image={CodePark}
-            dates="MAY 2018- JUN 2019"
+            dates="MAY 2018- MAR 2020"
             heading="Full Stack Developer, CodePark"
             text=" A practice to bring all programming lovers at a single platform and leverage the power of community to build, learn and explore.
 					"

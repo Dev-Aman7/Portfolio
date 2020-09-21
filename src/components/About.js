@@ -141,7 +141,7 @@ export default function About() {
                     className={classes.btn}
                     onClick={() =>
                       window.open(
-                        "https://www.linkedin.com/in/dev-aman7/",
+                        "https://www.linkedin.com/in/dev-aman/",
                         "_blank"
                       )
                     }
