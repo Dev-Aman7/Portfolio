@@ -6,7 +6,8 @@ import IconButton from "@material-ui/core/IconButton";
 
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
-import MenuIcon from "@material-ui/icons/Menu";
+// import MenuIcon from "@material-ui/icons/Menu";
+import developer from "../assets/images/developer.png";
 
 // import Slide from "@material-ui/core/Slide";
 
@@ -15,7 +16,7 @@ import { Button } from "@material-ui/core";
 
 import { NavHashLink as NavLink } from "react-router-hash-link";
 
-import CustomDrawer from "./atoms/CustomDrawer";
+// import CustomDrawer from "./atoms/CustomDrawer";
 import HideOnScroll from "../hooks/HideOnScroll";
 
 const useStyles = makeStyles((theme) => ({
@@ -56,7 +57,7 @@ const useStyles = makeStyles((theme) => ({
     color: theme.secondary,
   },
   mobile: {
-    backgroundColor: theme.backgroundColor,
+    backgroundColor: "rgba(0, 0, 0,0.6)",
   },
   mobilenav: {
     display: "block",
@@ -76,7 +77,7 @@ const sections = [
 export default function Nav(props) {
   const classes = useStyles();
 
-  const [open, setOpen] = React.useState(false);
+  // const [open, setOpen] = React.useState(false);
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
 
@@ -95,9 +96,9 @@ export default function Nav(props) {
   const handleMobileMenuOpen = (event) => {
     setMobileMoreAnchorEl(event.currentTarget);
   };
-  const toggleDrawer = () => {
-    setOpen(!open);
-  };
+  // const toggleDrawer = () => {
+  //   setOpen(!open);
+  // };
 
   const menuId = "menu";
 
@@ -139,7 +140,7 @@ export default function Nav(props) {
     >
       {sections.map((elem) => {
         return (
-          <Button className={classes.mobilenav}>
+          <Button className={classes.mobilenav} onClick={handleMobileMenuClose}>
             <NavLink smooth to={`#${elem}`} className={classes.mobilenav}>
               {elem}
             </NavLink>
@@ -154,7 +155,8 @@ export default function Nav(props) {
       <HideOnScroll {...props}>
         <AppBar className={classes.appBar}>
           <Toolbar>
-            <IconButton
+            <img src={developer} alt="developer" height="2rem" />
+            {/* <IconButton
               edge="start"
               className={classes.menuButton}
               color="inherit"
@@ -162,9 +164,9 @@ export default function Nav(props) {
               onClick={() => toggleDrawer()}
             >
               <MenuIcon />
-            </IconButton>
+            </IconButton> */}
 
-            <CustomDrawer open={open} toggleDrawer={toggleDrawer} />
+            {/* <CustomDrawer open={open} toggleDrawer={toggleDrawer} /> */}
 
             <div className={classes.grow} />
             <div className={classes.sectionDesktop}>{allNav}</div>
