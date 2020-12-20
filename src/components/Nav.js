@@ -30,6 +30,10 @@ const useStyles = makeStyles((theme) => ({
   grow: {
     flexGrow: 1,
   },
+  icon: {
+    position: "absolute",
+    height: "5rem",
+  },
   menuButton: {
     marginRight: theme.spacing(2),
   },
@@ -155,7 +159,7 @@ export default function Nav(props) {
       <HideOnScroll {...props}>
         <AppBar className={classes.appBar}>
           <Toolbar>
-            <img src={developer} alt="developer" height="2rem" />
+            <img src={developer} alt="developer" className={classes.icon} />
             {/* <IconButton
               edge="start"
               className={classes.menuButton}
