@@ -6,11 +6,11 @@ import Typography from "@material-ui/core/Typography";
 import makestyles from "@material-ui/styles/makeStyles";
 
 import ExperienceCard from "./atoms/ExperienceCard";
-// import Bene from "../assets/images/bene.png";
+import Bene from "../assets/images/bene.png";
 import TCS from "../assets/images/TCS.jpg";
 // import Bar from "../assets/images/bar.png";
 import ISA from "../assets/images/isa.jpeg";
-import CodePark from "../assets/images/CodePark.jpeg";
+// import CodePark from "../assets/images/CodePark.jpeg";
 
 const useStyles = makestyles((theme) => ({
   container: {
@@ -79,23 +79,14 @@ export default function Experience() {
             text="Lead an extraordinary group of enthusiasts technocrats who have the ability to change world and continuously working on this practice."
           />
         </Grid>
-        <Grid item md={4} xs={12} sm={12} className={classes.gridItem}>
-          <ExperienceCard
-            image={CodePark}
-            dates="MAY 2018- MAR 2020"
-            heading="Full Stack Developer, CodePark"
-            text=" A practice to bring all programming lovers at a single platform and leverage the power of community to build, learn and explore.
-					"
-          />
-        </Grid>
-        {/* <Grid item md={3} xs={12} sm={12} className={classes.gridItem}>
+        <Grid item md={3} xs={12} sm={12} className={classes.gridItem}>
           <ExperienceCard
             image={Bene}
             dates="APR 2020- JUN 2020"
             heading="Full Stack Intern at Bene"
-            text="Full stack developement with the sugar of innovation and creativity to build real-life projects with high performance and low maintainenance."
+            text="Full stack development with the sugar of innovation and creativity to build real-life projects with high performance and low maintenance."
           />
-        </Grid> */}
+        </Grid>
       </Grid>
     </Box>
   );

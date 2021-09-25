@@ -105,11 +105,10 @@ export default function About() {
           <Box pt={9} px={7}>
             <Typography className={classes.text}>
               Software developer, with MERN proficiency as a full stack
-              developer. I am a highly motivated and progress-focused Software
-              Developer with a long-standing background in this industry. With a
-              track record of initiative and dependability. I have devised
-              strategic initiatives which I believe will prove valuable to your
-              esteemed organization.
+              developer. I am a highly motivated and progress-focused person,
+              with a track record of initiative and dependability. I have
+              devised strategic initiatives which I believe will prove valuable
+              to your esteemed organization.
             </Typography>
             <Box mt={5} mb={2}>
               <Grid container>
@@ -117,7 +116,7 @@ export default function About() {
                   <Typography className={classes.subItem}>
                     NAME : Aman Kumar{" "}
                   </Typography>
-                  <Typography className={classes.subItem}>AGE : 22</Typography>
+                  <Typography className={classes.subItem}>AGE : 23</Typography>
                 </Grid>
                 <Grid item md={5} xs={12} sm={12}>
                   <Typography className={classes.subItem}>
