@@ -57,7 +57,7 @@ export default function Footer() {
             <CallIcon /> &nbsp; (+91) 9087771296
           </Grid>
           <Grid item xs={12} md={4} sm={12} className={classes.griditem}>
-            <EmailIcon /> &nbsp; aman.kumar.6170@gmail.com
+            <EmailIcon /> &nbsp; aman.dev6170@gmail.com
           </Grid>
           <Grid item xs={12} md={4} sm={12} className={classes.griditem}>
             <LocationOnIcon /> &nbsp; Banglore, INDIA
@@ -90,7 +90,7 @@ export default function Footer() {
             </IconButton>
             <IconButton
               onClick={() =>
-                window.open("https://www.linkedin.com/in/dev-aman/", "_blank")
+                window.open("https://www.linkedin.com/in/dev-aman7/", "_blank")
               }
               className={classes.socialicon}
             >

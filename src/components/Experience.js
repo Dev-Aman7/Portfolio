@@ -10,7 +10,8 @@ import Bene from "../assets/images/bene.png";
 import TCS from "../assets/images/TCS.jpg";
 // import Bar from "../assets/images/bar.png";
 import ISA from "../assets/images/isa.jpeg";
-// import CodePark from "../assets/images/CodePark.jpeg";
+import CodePark from "../assets/images/CodePark.jpeg";
+import ByteAvenue from "../assets/images/byteavenue.png";
 
 const useStyles = makestyles((theme) => ({
   container: {
@@ -62,13 +63,29 @@ export default function Experience() {
         <div className={classes.bar1}></div>
         <div className={classes.bar2}></div>
       </Box>
-      <Grid container>
+      <Grid container style={{ justifyContent: "center" }}>
+        <Grid item md={4} xs={12} sm={12} className={classes.gridItem}>
+          <ExperienceCard
+            image={ByteAvenue}
+            dates="FEB 2018- present"
+            heading="Co-founder & CTO"
+            text="Developing, implementing, managing and evaluating the company's technology resources."
+          />
+        </Grid>
         <Grid item md={4} xs={12} sm={12} className={classes.gridItem}>
           <ExperienceCard
             image={TCS}
-            dates="OCT 2020- Present"
+            dates="OCT 2020- MAY 2022"
             heading="System Engineer"
-            text="Part of a change. Building tools accessible for everyone and everywhere "
+            text="Developed and managed frontend of multiple website development from the initial stage to the completion stage."
+          />
+        </Grid>
+        <Grid item md={4} xs={12} sm={12} className={classes.gridItem}>
+          <ExperienceCard
+            image={CodePark}
+            dates="MAR 2028- JUN 2020"
+            heading="Co-founder"
+            text="Primarily worked on forming the team, growing the MVP, defining specifications, and bringing product into life. "
           />
         </Grid>
         <Grid item md={4} xs={12} sm={12} className={classes.gridItem}>
@@ -79,7 +96,7 @@ export default function Experience() {
             text="Lead an extraordinary group of enthusiasts technocrats who have the ability to change world and continuously working on this practice."
           />
         </Grid>
-        <Grid item md={3} xs={12} sm={12} className={classes.gridItem}>
+        <Grid item md={4} xs={12} sm={12} className={classes.gridItem}>
           <ExperienceCard
             image={Bene}
             dates="APR 2020- JUN 2020"
